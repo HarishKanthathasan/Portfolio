@@ -2,11 +2,11 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://harish.github.io//Portfolio",
+  "homepage": "https://HarishKanthathasan.github.com/Portfolio",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
+    "dev": "vite",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
